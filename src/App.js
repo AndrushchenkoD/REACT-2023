@@ -1,5 +1,5 @@
 
-import Character from "./Character/character";
+import Character from "./character/Character";
 
 function App() {
   return (
