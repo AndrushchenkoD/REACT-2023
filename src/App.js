@@ -1,8 +1,13 @@
+import UserSave from "./components/UserSave";
+import CommentSave from "./components/CommentSave";
 
 function App() {
+
   return (
     <div>
-App
+<UserSave/>
+        <hr/>
+        <CommentSave/>
     </div>
   );
 }
