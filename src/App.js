@@ -1,10 +1,20 @@
+import React, {Component} from 'react';
+import Posts from "./components/Posts";
+import Comments from "./components/Comments";
 
-function App() {
-  return (
-    <div>
-App
-    </div>
-  );
+
+class App extends Component {
+
+
+    render() {
+        return (
+            <div>
+               <Posts/>
+                <hr/>
+               <Comments/>
+            </div>
+        );
+    }
 }
 
 export default App;
