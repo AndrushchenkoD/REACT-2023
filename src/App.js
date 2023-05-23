@@ -1,8 +1,12 @@
+import Show from "./components/show";
+import Tool from "./components/tool";
 
 function App() {
   return (
     <div>
-App
+<Show/>
+        <hr/>
+        <Tool/>
     </div>
   );
 }
