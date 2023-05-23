@@ -1,8 +1,12 @@
+import ShowCounter from "./components/showCounter";
+import Countertool from "./components/countertool";
 
 function App() {
   return (
     <div>
-App
+          <ShowCounter/>
+        <hr/>
+        <Countertool/>
     </div>
   );
 }
