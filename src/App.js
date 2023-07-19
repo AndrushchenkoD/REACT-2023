@@ -10,7 +10,9 @@ function App() {
     useEffect(()=>{
         getUserPosts(currentUser.id).then(value => setPosts(value))
     },[currentUser.id])
+
   return (
+
     <div>
       <Users chosenUser={chosenUser}/>
         <hr/>
