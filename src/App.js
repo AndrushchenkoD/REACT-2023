@@ -3,7 +3,7 @@ import Launches from "./components/Launches/Launches";
 function App() {
   return (
     <div>
-<Launches/>
+        <Launches/>
     </div>
   );
 }
